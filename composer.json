@@ -1,0 +1,20 @@
+{
+    "name": "pierreminiggio/youtube-to-linkedin",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\YoutubeToLinkedin\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "pierreminiggio/database-connection": "^1.2"
+    }
+}
